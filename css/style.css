@@ -113,6 +113,11 @@ section {
   background: linear-gradient(180deg, rgb(42, 48, 255) 0%, rgb(131, 0, 136) 95%);
 }
 
+aside {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 aside img {
-  max-width: 23%;
+  max-width: 24%;
 }/*# sourceMappingURL=style.css.map */

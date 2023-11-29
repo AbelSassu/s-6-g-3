@@ -10,6 +10,10 @@ section{
     background: rgb(42,48,255);
     background: linear-gradient(180deg, rgba(42,48,255,1) 0%, rgba(131,0,136,1) 95%);;
 }
+aside{
+    display: flex;
+    justify-content: space-evenly;
+}
 aside img{
-    max-width: 23%;
+    max-width: 24%;
 }
