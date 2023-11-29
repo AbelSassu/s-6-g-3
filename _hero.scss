@@ -1,16 +1,17 @@
 h1 {
-    font-size: 4rem;
-    color: rgb(39, 0, 78);
+    @include titleBig
 }
 
 p {
+    font-family:$cambioFont;
     color: #f3f3f3;
-    font-size: 1.5rem;
+    font-size: $sizeP;
 }
 
 .azzurro, .arancio, .verde {
+    font-family:$cambioFont;
     margin-right: 5px;
-    font-size: 0.6rem;
+    font-size: $sizeBut;
     padding: 1.5em;
     border-radius: 5px;
     color: #f3f3f3;

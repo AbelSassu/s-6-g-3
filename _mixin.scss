@@ -1,0 +1,9 @@
+$cambioFont: sans-serif;
+$sizeP: 1.5rem;
+$sizeBut: 0.6rem;
+@mixin titleBig{
+    font-family:$cambioFont;
+    font-weight: bolder;
+    font-size: 4rem;
+    color: rgb(39, 0, 78);
+}

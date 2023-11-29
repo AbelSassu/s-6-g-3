@@ -21,16 +21,20 @@ nav a {
 }
 
 h1 {
+  font-family: sans-serif;
+  font-weight: bolder;
   font-size: 4rem;
   color: rgb(39, 0, 78);
 }
 
 p {
+  font-family: sans-serif;
   color: #f3f3f3;
   font-size: 1.5rem;
 }
 
 .azzurro, .arancio, .verde {
+  font-family: sans-serif;
   margin-right: 5px;
   font-size: 0.6rem;
   padding: 1.5em;
@@ -98,10 +102,6 @@ p {
     transform: scale(1.1);
   }
 }
-aside img {
-  max-width: 23%;
-}
-
 section {
   padding-left: 5vh;
   padding-right: 5vh;
@@ -111,4 +111,8 @@ section {
 section {
   background: rgb(42, 48, 255);
   background: linear-gradient(180deg, rgb(42, 48, 255) 0%, rgb(131, 0, 136) 95%);
+}
+
+aside img {
+  max-width: 23%;
 }/*# sourceMappingURL=style.css.map */
