@@ -13,7 +13,7 @@ p {
     margin-right: 5px;
     font-size: $sizeBut;
     padding: 1.5em;
-    border-radius: 5px;
+    border-radius: $radius;
     color: #f3f3f3;
     border: 0;
 }
@@ -55,7 +55,7 @@ p {
 .flexa2 img {
     max-width: 100%;
     height: 150%;
-    border-radius: 5px;
+    border-radius: $radius;
     border: 1px solid white;
     box-shadow: -5px 10px 20px 1px;
 }
